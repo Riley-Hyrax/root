@@ -57,7 +57,7 @@ a{
     width: 75%;
     text-align: center;
     margin: auto;
-    padding: 20px 0 0 0;
+    padding: 0px 0 0 0;
     font-weight: 1000;
     font-size: 34px;
 }
@@ -65,7 +65,6 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
     height: fit-content;
     width: 75%;
     margin: auto;
@@ -84,6 +83,7 @@ a{
     height: 500px;
     width: 85%;
     border-radius: 3px;
+ 
 }
 
 
@@ -91,21 +91,20 @@ a{
 .article-text{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 15px;
     width: 80%;
-    height: 400px;
+    height: fit-content;
     line-height: 1.6 !important;
     margin-left: 0px;
     padding-left: 30px;
     font-size: 20px;
-    margin-top: 30px;
     text-align: center;
     overflow: hidden;
+    font-weight: 100;
 }
 
-.article-text:last-child{
-    margin-top: 30px;
-}
+
 
 .article-text > p {
     overflow: hidden;
@@ -126,7 +125,7 @@ a{
     width: 60%;
     height: 50px;
     transition: 1s ease;
-    margin: 0 auto 0 auto;
+    margin: 10 auto 0 auto;
     overflow: hidden;
 
 }
