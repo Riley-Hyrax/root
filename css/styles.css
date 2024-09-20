@@ -8,6 +8,7 @@ body{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     background-color: rgba(241, 244, 248, 1);
+    color: #333;
 }
 #loading-screen {
     position: fixed;
@@ -208,7 +209,7 @@ a{
     @media screen and (max-width: 905px) {
         .header-text{
             font-size: 30px !important;
-            width: 90%;
+            width: 100%;
             height: fit-content;
 
         }
@@ -247,7 +248,7 @@ a{
             margin-top: -20px;
         }
         .article-text{
-            width: 90%;
+            width: 100%;
             margin: 0 auto 15px auto;
             height: fit-content;
             gap: 20px;
