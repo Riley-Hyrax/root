@@ -261,6 +261,7 @@ a{
         .article-image-text{
             height: fit-content;
             margin: 0;
+            width: 85%;
         }
 
         .cta{
