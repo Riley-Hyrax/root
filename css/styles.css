@@ -77,26 +77,31 @@ a{
 }
 
 .article-image {
-    background-size: cover;
+    background-image: url('hero-image.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     height: 500px;
     width: 80%;
     display: flex;
     align-items: flex-end;
     border-radius: 3px;
+    justify-content: center;
+    padding-bottom: 10px;    
 
     
 }
 
 .article-image-text{
-    background-color: rgba(65, 64, 64, 0.795);
+    background-color: rgba(65, 64, 64, 0.123);
     color: white;
     font-style: italic;
-    width: 100%;
+    width: 70%;
+    text-align: center;
     height: 10%;
     padding: 10px;
     font-size: 14px;
+    
 }
 
 .article-text{
@@ -112,6 +117,11 @@ a{
     margin-top: 30px;
     font-size: 20px;
     text-align: center;
+    overflow: hidden;
+}
+
+.article-text > p {
+    overflow: hidden;
 }
 
 .article-text > h1,p{
