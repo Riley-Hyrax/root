@@ -210,6 +210,11 @@ a{
 
 
     @media screen and (max-width: 905px) {
+        .header-text{
+            font-size: 60px;
+            width: 90%;
+            height: fit-content;
+        }
         *{
             overflow-x: hidden;
         }
