@@ -82,7 +82,7 @@ a{
     background-repeat: no-repeat;
     background-position: top;
     height: 500px;
-    width: 80%;
+    width: fit-content;
     display: flex;
     align-items: flex-end;
     border-radius: 3px;
